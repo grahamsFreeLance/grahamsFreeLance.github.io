@@ -290,7 +290,11 @@ hr {
 	color: #fff;
 }
 
-
+i
+{
+  color: #F0F8FF ;
+  font-family: Cedarville Cursive;
+}
 
 /* ===========================
 --- Intro
@@ -299,7 +303,7 @@ hr {
 .intro {
 	width:100%;
 	position:relative;	
-	background: url(../img/bg1.jpg) no-repeat top center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/indian-ocean-1596.jpg) no-repeat top center;
 	background-size: cover;
 }
 
