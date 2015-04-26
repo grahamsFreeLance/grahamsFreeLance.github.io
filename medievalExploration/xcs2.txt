@@ -1,0 +1,22 @@
+Question 1: 5 points
+Question 2: 5 points
+Question 3: 5 points
+Question 4: 5 points
+Question 5: 10 points
+Question 6: 10 points
+Question 7: 10 points
+Question 8: 0 points
+Your answer: SELECT SUM(price) AS 'Total_Sales' FROM items INNER JOIN orders on items.itemID = orders.itemID WHERE date > 2013-02-28
+
+---------------------
+Question 9: 10 points
+Question 10: 10 points
+Question 11: 0 points
+Your answer: SELECT c.customerID, COUNT(DISTINCT o.orderID) AS number_of_orders, SUM(i.price) / COUNT(DISTINCT o.orderID) AS my_average FROM customers c LEFT JOIN orders o ON o.customerID = c.customerID AND o.date >= '2013-03-01' AND o.date < '2013-04-01' LEFT JOIN items i ON o.itemID = i.itemID GROUP BY c.customerID
+
+---------------------
+Question 12: 0 points
+Your answer: SELECT COUNT(DISTINCT aID) as diff_address, c.fName, c.lName FROM orders o LEFT JOIN customers c ON o.customerID = c.customerID GROUP BY o.customerID HAVING diff_address > 1;
+
+---------------------
+Total score: 70
