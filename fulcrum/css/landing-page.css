@@ -16,7 +16,7 @@
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -114,8 +114,6 @@
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
 }
-
-
 
 body,
 html {
